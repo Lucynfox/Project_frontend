@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"
+      integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <h1>Top Films List</h1>
+    <div id="addNewItem">
+      <form id="topfilmsListForm">
+        <label for="title">Title:</label><br />
+        <input type="text" id="title" name="title" /><br />
+        <label for="yearofrelease">Year of release:</label><br />
+        <input type="text" id="yearofrelease" name="yearofreleas1" /><br />
+        <label for="rating">Rating:</label><br />
+        <input type="text" id="rating" name="rating" /><br />
+        <label for="lengthoffilm">Length of Film:</label><br />
+        <input type="text" id="lengthoffilm" name="lengthoffilm" /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <div id="currentItems"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
